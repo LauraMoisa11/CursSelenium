@@ -23,7 +23,7 @@ public class JsAlertExample extends BaseTest {
 		assertEquals(result, "You successfully clicked an alert");
 		Thread.sleep(3000);
 		
-	}
+	} 
 	@Test(priority = 1)
 	public void confirmationJsAlertTest() throws InterruptedException {
 		

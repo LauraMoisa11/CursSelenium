@@ -21,7 +21,7 @@ public class CssExample extends BaseTest{
 		System.out.println(theSonBook.getText());
 		//contains  *
 		WebElement deepSileneceBook =  driver.findElement(By.cssSelector("a[href*='dee']"));
-		System.out.println(deepSileneceBook.getText());
+		System.out.println(deepSileneceBook.getText()); 
 		//starts with ^
 		WebElement lifeInGardenBook =  driver.findElement(By.cssSelector("a[href^='life']"));
 		System.out.println(lifeInGardenBook.getText());
