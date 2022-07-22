@@ -1,13 +1,13 @@
 package curs11;
 
-import static org.testng.Assert.assertEquals;
+
 import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
+
 import org.testng.annotations.Test;
 
 import utils.BaseTest;
